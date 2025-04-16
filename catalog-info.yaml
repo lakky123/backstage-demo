@@ -8,8 +8,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     demo.backstage.io/techdocs-builder: local
 spec:
-  type: website
-  owner: backstage/maintainers
   lifecycle: experimental
+  owner: guests
+  system: examples
   dependsOn:
     - component:example-website
