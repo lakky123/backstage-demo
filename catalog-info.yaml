@@ -11,5 +11,5 @@ spec:
   type: website
   owner: backstage/maintainers
   lifecycle: experimental
-  apiConsumedBy:
-    - example-website
+  dependsOn:
+    - component:example-website
