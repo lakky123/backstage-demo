@@ -11,5 +11,5 @@ spec:
   type: website
   owner: backstage/maintainers
   lifecycle: experimental
-  consumesApis:
-    - demo-graphql
+  apiConsumedBy:
+    - example-website
